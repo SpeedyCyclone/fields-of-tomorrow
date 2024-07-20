@@ -1,1 +1,19 @@
-/* You can add global styles to this file, and also import other style files */
+:root {
+  --text: #0a0b0a;
+  --background: #fafcfa;
+  --primary: #52ba5a;
+  --secondary: #8ee595;
+  --accent: #75cccd;
+}
+
+* {
+  height: auto;
+  width: auto;
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+*::-webkit-scrollbar {
+  display: none;
+}

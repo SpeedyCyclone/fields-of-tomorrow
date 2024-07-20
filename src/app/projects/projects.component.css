@@ -1,0 +1,42 @@
+.projects {
+  text-align: center;
+  color: var(--primary);
+  font-weight: 900 !important;
+  font-size: 50px;
+  letter-spacing: 2px;
+  font-family: "Inter";
+  margin-top: 30px;
+  margin-bottom: 50px;
+}
+
+.project {
+  text-align: center;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  font-family: "Inter";
+  color: var(--text);
+  font-size: 30px;
+}
+
+p {
+  font-family: "Poppins";
+  color: var(--text);
+  margin: 30px;
+  font-size: 20px;
+}
+
+ul {
+  text-align: center;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  font-family: "Inter";
+  color: var(--text);
+  font-size: 25px;
+}
+
+li {
+  font-family: "Poppins";
+  color: var(--text);
+  margin: 30px;
+  font-size: 20px;
+}
