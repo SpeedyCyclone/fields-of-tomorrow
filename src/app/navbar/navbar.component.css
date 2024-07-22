@@ -1,20 +1,20 @@
 nav {
-  height: 120px;
-  background: #ececec;
+  height: 100px;
+  background-color: transparent;
   width: 100%;
-  font-family: "Inter";
   display: flex;
   align-items: center;
   justify-content: center;
 }
 
 .label {
-  color: var(--text);
-  font-size: 72px;
-  font-weight: 700;
-  font-family: "Crimson Text" !important;
   display: flex;
   align-items: center;
+  color: var(--background);
+  font-family: "Crimson Text";
+  font-size: 50px;
+  background-color: transparent;
+  font-weight: 700;
 }
 
 ul {
@@ -23,19 +23,22 @@ ul {
   align-items: center;
   justify-content: center;
   margin-right: 50px;
+  background-color: transparent;
 }
 
 li,
 a {
-  color: var(--text);
+  color: var(--background);
   text-align: center;
-  font-size: 24px;
-  font-weight: 600;
+  font-weight: 400;
   display: flex;
   align-items: center;
   justify-content: center;
   text-decoration: none;
   margin-left: 50px;
+  font-family: "Inter";
+  font-size: 20px;
+  background-color: transparent;
 }
 
 div {
@@ -49,8 +52,8 @@ div {
   align-items: center;
   justify-content: center;
   width: 60px;
-  margin-left: 150px;
   margin-right: 300px;
+  background-color: transparent;
 }
 
 span {
@@ -58,6 +61,17 @@ span {
   display: flex;
   margin-right: 0;
   color: var(--primary);
-  font-size: 72px;
   font-weight: 700;
+  font-family: "Crimson Text";
+  font-size: 50px;
+  background-color: transparent;
+}
+
+.active {
+  background-color: var(--primary);
+  color: white;
+  font-weight: bold !important;
+  height: 50px;
+  width: 150px;
+  border-radius: 20px;
 }

@@ -4,9 +4,41 @@
   </div>
 
   <ul>
-    <li><a href="/">Home</a></li>
-    <li><a href="/about">About Us</a></li>
-    <li><a href="/projects">Projects</a></li>
-    <li><a href="/contact">Contact Us</a></li>
+    <li>
+      <a
+        href="/"
+        routerLink="/"
+        routerLinkActive="active"
+        [routerLinkActiveOptions]="{ exact: true }"
+        >Home</a
+      >
+    </li>
+    <li>
+      <a
+        href="/about"
+        routerLink="/about"
+        routerLinkActive="active"
+        [routerLinkActiveOptions]="{ exact: true }"
+        >About Us</a
+      >
+    </li>
+    <li>
+      <a
+        href="/projects"
+        routerLink="/projects"
+        routerLinkActive="active"
+        [routerLinkActiveOptions]="{ exact: true }"
+        >Projects</a
+      >
+    </li>
+    <li>
+      <a
+        href="/contact"
+        routerLink="/contact"
+        routerLinkActive="active"
+        [routerLinkActiveOptions]="{ exact: true }"
+        >Contact Us</a
+      >
+    </li>
   </ul>
 </nav>

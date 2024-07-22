@@ -1,42 +1,113 @@
+.ok {
+  position: relative;
+  background-size: cover;
+  background-size: 100% 100%;
+  color: var(--background);
+  text-align: center;
+  height: 565px;
+  background: linear-gradient(
+      0deg,
+      rgba(10, 11, 10, 0.7) 0%,
+      rgba(10, 11, 10, 0.7) 100%
+    ),
+    url(../../assets/bg1.webp) lightgray 50% / cover no-repeat;
+}
+
 .projects {
-  text-align: center;
-  color: var(--primary);
-  font-weight: 900 !important;
-  font-size: 50px;
-  letter-spacing: 2px;
+  color: #111;
   font-family: "Inter";
-  margin-top: 30px;
-  margin-bottom: 50px;
+  font-size: 64px;
+  text-align: center;
+  margin-top: 50px;
+  font-weight: 800;
 }
 
-.project {
-  text-align: center;
-  margin-top: 30px;
-  margin-bottom: 30px;
-  font-family: "Inter";
-  color: var(--text);
-  font-size: 30px;
+svg {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: auto;
 }
 
-p {
+.flexbox {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 70px;
+}
+
+img {
+  border-radius: 16px;
+  margin: 50px;
+}
+
+.special {
+  position: relative;
+  background-image: url("../../assets/product.png");
+  background-size: cover;
+  background-size: 100% 100%;
+  color: var(--background);
+  text-align: center;
+  width: 481px;
+  height: 336px;
+  margin: 50px;
+}
+
+.special p {
+  text-align: center;
+  margin-top: 150px;
+  color: #ededed;
   font-family: "Poppins";
-  color: var(--text);
-  margin: 30px;
-  font-size: 20px;
+  font-size: 32px;
+  font-weight: 600;
+  background-color: transparent;
 }
 
-ul {
+.text1 {
+  position: relative;
   text-align: center;
-  margin-top: 30px;
-  margin-bottom: 30px;
+  background-color: transparent;
+  color: #fafcfa;
+  text-align: center;
   font-family: "Inter";
-  color: var(--text);
-  font-size: 25px;
+  font-size: 100px;
+  font-weight: 700;
+  letter-spacing: 8px;
 }
 
-li {
+.text {
+  color: rgba(250, 252, 250, 0.67);
+  text-align: center;
   font-family: "Poppins";
-  color: var(--text);
-  margin: 30px;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  background-color: transparent;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  margin-top: 20px;
+}
+
+.final {
+  background-color: transparent;
+  margin-top: 100px;
+}
+
+.omg {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.h3 {
   font-size: 20px;
+  font-weight: 700;
+  font-family: "Poppins";
+  text-align: center;
+  text-decoration: underline;
 }

@@ -1,55 +1,103 @@
-<form [formGroup]="this.contact" (ngSubmit)="onSubmit()">
+<div class="ok">
+  <app-navbar></app-navbar>
   <h1 class="get">Contact Us</h1>
-
-  <div class="group">
-    <label>Name</label>
-    <input type="text" name="cyber" formControlName="cyber" required />
-    <div
-      class="error"
-      *ngIf="
-        contact.get('cyber')?.invalid &&
-        (contact.get('cyber')?.dirty || contact.get('cyber')?.touched)
-      "
-    >
-      Please provide a valid name.
+  <p>
+    From product support to media inquiries, feel free to mail us at
+    fot@gmail.com.
+  </p>
+</div>
+<div class="gigabyte">
+  <div class="contactdetails">
+    <div class="flexbox">
+      <div class="card">
+        <h1>India</h1>
+        <div class="rocks">
+          <div class="address">
+            <h2>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias
+              voluptatum quo et non eum aperiam molestiae dolores quis debitis
+              unde aspernatur rerum, nisi quia numquam, ipsam esse mollitia quos
+              ad?
+            </h2>
+          </div>
+          <div class="phone">
+            <h2>+91 1234567890</h2>
+          </div>
+        </div>
+      </div>
+      <div class="card">
+        <h1>India</h1>
+        <div class="rocks">
+          <div class="address">
+            <h2>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias
+              voluptatum quo et non eum aperiam molestiae dolores quis debitis
+              unde aspernatur rerum, nisi quia numquam, ipsam esse mollitia quos
+              ad?
+            </h2>
+          </div>
+          <div class="phone">
+            <h2>+91 1234567890</h2>
+          </div>
+        </div>
+      </div>
     </div>
   </div>
-  <div class="group">
-    <label>Your Email</label>
-    <input type="email" name="email" formControlName="email" required />
-    <div
-      class="error"
-      *ngIf="
-        contact.get('email')?.invalid &&
-        (contact.get('email')?.dirty || contact.get('email')?.touched)
-      "
-    >
-      Please provide a valid email with valid format.
-    </div>
-    <div class="group">
-      <div>
-        <label>Message</label>
-      </div>
-      <div>
-        <textarea
-          type="text"
-          name="message"
-          formControlName="message"
-          required
-        ></textarea>
+  <div class="finalform">
+    <form [formGroup]="this.contact" (ngSubmit)="onSubmit()">
+      <h1 class="get1">Send us a message!</h1>
+      <div class="group">
+        <label>Name</label>
+        <input type="text" name="cyber" formControlName="cyber" required />
         <div
           class="error"
           *ngIf="
-            contact.get('message')?.invalid &&
-            (contact.get('message')?.dirty || contact.get('message')?.touched)
+            contact.get('cyber')?.invalid &&
+            (contact.get('cyber')?.dirty || contact.get('cyber')?.touched)
           "
         >
-          Please provide a valid message.
+          Please provide a valid name.
         </div>
       </div>
-      <button class="btn" type="submit" [disabled]="!contact.valid">
-        Send message
-      </button>
-    </div>
+      <div class="group">
+        <label>Your Email</label>
+        <input type="email" name="email" formControlName="email" required />
+        <div
+          class="error"
+          *ngIf="
+            contact.get('email')?.invalid &&
+            (contact.get('email')?.dirty || contact.get('email')?.touched)
+          "
+        >
+          Please provide a valid email with valid format.
+        </div>
+        <div class="group">
+          <div>
+            <label>Message</label>
+          </div>
+          <div>
+            <textarea
+              type="text"
+              name="message"
+              formControlName="message"
+              required
+            ></textarea>
+            <div
+              class="error"
+              *ngIf="
+                contact.get('message')?.invalid &&
+                (contact.get('message')?.dirty ||
+                  contact.get('message')?.touched)
+              "
+            >
+              Please provide a valid message.
+            </div>
+          </div>
+          <button class="btn" type="submit" [disabled]="!contact.valid">
+            Send message
+          </button>
+        </div>
+      </div>
+    </form>
   </div>
-</form>
+</div>
