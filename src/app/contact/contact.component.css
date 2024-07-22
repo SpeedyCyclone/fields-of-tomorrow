@@ -134,12 +134,12 @@ p {
 
 .ok {
   position: relative;
-  background-image: url("../../assets/wheat.png");
+  background-image: url("../../assets/bg3.webp");
   background-size: cover;
   background-size: 100% 100%;
   color: var(--background);
   text-align: center;
-  height: 400px;
+  height: 500px;
 }
 
 .gigabyte {

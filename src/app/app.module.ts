@@ -9,6 +9,8 @@ import { FooterComponent } from './footer/footer.component';
 import { ContactComponent } from './contact/contact.component';
 import { ReactiveFormsModule } from '@angular/forms';
 import { ProjectsComponent } from './projects/projects.component';
+import { StabalizerComponent } from './stabalizer/stabalizer.component';
+import { WindPulseComponent } from './wind-pulse/wind-pulse.component';
 
 @NgModule({
   declarations: [
@@ -18,6 +20,8 @@ import { ProjectsComponent } from './projects/projects.component';
     FooterComponent,
     ContactComponent,
     ProjectsComponent,
+    StabalizerComponent,
+    WindPulseComponent,
   ],
   imports: [BrowserModule, AppRoutingModule, ReactiveFormsModule],
   providers: [],
