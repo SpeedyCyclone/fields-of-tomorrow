@@ -5,6 +5,7 @@ import { ContactComponent } from './contact/contact.component';
 import { ProjectsComponent } from './projects/projects.component';
 import { StabalizerComponent } from './stabalizer/stabalizer.component';
 import { WindPulseComponent } from './wind-pulse/wind-pulse.component';
+import { AboutComponent } from './about/about.component';
 
 const routes: Routes = [
   {
@@ -26,6 +27,10 @@ const routes: Routes = [
   {
     path: 'projects/windpulse',
     component: WindPulseComponent,
+  },
+  {
+    path: 'about',
+    component: AboutComponent,
   },
 ];
 

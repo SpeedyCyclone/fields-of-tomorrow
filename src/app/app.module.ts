@@ -11,6 +11,7 @@ import { ReactiveFormsModule } from '@angular/forms';
 import { ProjectsComponent } from './projects/projects.component';
 import { StabalizerComponent } from './stabalizer/stabalizer.component';
 import { WindPulseComponent } from './wind-pulse/wind-pulse.component';
+import { AboutComponent } from './about/about.component';
 
 @NgModule({
   declarations: [
@@ -22,6 +23,7 @@ import { WindPulseComponent } from './wind-pulse/wind-pulse.component';
     ProjectsComponent,
     StabalizerComponent,
     WindPulseComponent,
+    AboutComponent,
   ],
   imports: [BrowserModule, AppRoutingModule, ReactiveFormsModule],
   providers: [],

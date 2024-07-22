@@ -1,0 +1,224 @@
+.ok {
+  position: relative;
+  background-size: cover;
+  background-size: 100% 100%;
+  color: var(--background);
+  text-align: center;
+  height: 565px;
+  background: linear-gradient(
+      0deg,
+      rgba(10, 11, 10, 0.7) 0%,
+      rgba(10, 11, 10, 0.7) 100%
+    ),
+    url(../../assets/bg4.webp) lightgray 50% / cover no-repeat;
+}
+
+.text1 {
+  position: relative;
+  text-align: center;
+  background-color: transparent;
+  color: #fafcfa;
+  text-align: center;
+  font-family: "Inter";
+  font-size: 100px;
+  font-weight: 700;
+  letter-spacing: 8px;
+  align-self: stretch;
+}
+
+.text {
+  text-align: center;
+  font-family: "Poppins";
+  align-self: stretch;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  background-color: transparent;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 10px;
+
+  color: rgba(250, 252, 250, 0.5);
+
+  font-size: 30px;
+}
+
+.final {
+  background-color: transparent;
+  margin-top: 100px;
+}
+
+.h1 {
+  color: #111;
+  font-family: "Inter";
+  font-size: 64px;
+  margin-left: 50px;
+  margin-top: 50px;
+  font-weight: 800;
+  display: flex;
+}
+
+span {
+  color: #52ba5a;
+}
+
+svg {
+  margin-left: 50px;
+  margin-top: 50px;
+}
+
+.flexbox {
+  display: flex;
+  flex-direction: row;
+}
+
+.ohgod,
+.ohlord {
+  display: flex;
+  flex-direction: column;
+  margin: 50px;
+}
+
+.one {
+  color: #1a1a1a;
+  text-align: justify;
+  font-family: "Poppins";
+  font-size: 24px;
+  font-style: italic;
+  font-weight: 600;
+  line-height: normal;
+  margin-bottom: 30px;
+}
+
+.two {
+  color: #3d3d3d;
+  text-align: justify;
+  font-family: "Poppins";
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+
+.okok {
+  position: relative;
+  background-size: cover;
+  background-size: 100% 100%;
+  color: var(--background);
+  text-align: center;
+  height: 665px;
+  background: linear-gradient(
+      0deg,
+      rgba(10, 11, 10, 0.7) 0%,
+      rgba(10, 11, 10, 0.7) 100%
+    ),
+    url(../../assets/bg5.webp) lightgray 50% / cover no-repeat;
+}
+
+.notfinal {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin-top: 100px;
+}
+
+.goal {
+  color: var(--text);
+  font-family: "Inter";
+  font-size: 64px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: normal;
+  letter-spacing: 5.12px;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 50px;
+}
+
+.p {
+  color: var(--text);
+  text-align: justify;
+  font-family: "Poppins";
+  font-size: 24px;
+  font-style: italic;
+  font-weight: 600;
+  line-height: normal;
+  position: relative;
+  margin: 50px;
+}
+
+.svg {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: auto;
+  margin-top: 50px !important;
+}
+
+.adv {
+  position: relative;
+  text-align: center;
+  background-color: transparent;
+  color: #fafcfa;
+  text-align: center;
+  font-family: "Inter";
+
+  letter-spacing: 8px;
+
+  font-size: 64px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: normal;
+  letter-spacing: 5.12px;
+  padding-top: 50px;
+}
+
+.flexflex {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  background-color: transparent;
+}
+
+.cards {
+  width: 276px;
+  height: 300px;
+  background-color: grey;
+  margin-top: 150px;
+  margin-right: 30px;
+  margin-left: 30px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.last {
+  color: var(--primary);
+  font-family: "Inter";
+  font-size: 28px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  letter-spacing: 2.24px;
+  background-color: transparent;
+  margin-top: 20px;
+}
+
+.istg {
+  color: var(--background);
+  font-family: "Inter";
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  background-color: transparent;
+  margin-top: 60px !important;
+  margin: 30px;
+  text-align: justify;
+}
